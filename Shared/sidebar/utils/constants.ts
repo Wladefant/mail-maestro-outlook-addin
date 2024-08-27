@@ -1,0 +1,44 @@
+export const ADDIN_ACTIONS = {
+  REPLY: "reply",
+  COMPOSE: "compose",
+  DRAFT: "draft",
+  IMPROVE: "improve",
+  SUMMARIZE: "summarize",
+  ONBOARDING_ONLY: "onboarding_only",
+  CHANGE_SETTINGS: "change_settings",
+};
+
+export const PLATFROM_TYPES = {
+  OutlookWebApp: "WEB",
+  OutlookIOS: "IOS_NATIVE",
+  OutlookAndroid: "ANDROID_NATIVE",
+  OutlookMac: "MAC_NATIVE",
+  OutlookWindows: "WINDOWS_NATIVE",
+  OutlookWindowsNew: "WINDOWS_NATIVE_NEW",
+  Gmail: "GMAIL",
+};
+
+export enum EventName {
+  SUMMARIZE_SHORT = "SUMMARIZE_SHORT",
+  SUMMARIZE_ATTACHMENT = "SUMMARIZE_ATTACHMENT",
+  REPLY = "REPLY",
+  COMPOSE = "COMPOSE",
+  SUMMARIZE_DETAILED = "SUMMARIZE_DETAILED",
+  IMPROVE = "IMPROVE",
+  IMPROVE_TEXT_PART = "IMPROVE_TEXT_PART",
+  TIMESLOTS = "TIMESLOTS",
+  RAPID_REPLY = "RAPID_REPLY_TOPICS",
+  FORWARD = "FORWARD",
+  REPLY_FAQ = "REPLY_FAQ",
+}
+
+export const INTERNAL_MAGIC_TEMPLATES = {
+  TIMESLOTS_ACCEPT: "32243734-59ce-41ad-a4f3-524f17a81690",
+  RAPID_REPLY: "86e36d09-b664-4d8d-af62-abc21133b574",
+};
+export const MODES = {
+  LIST_VIEW: "LIST_VIEW",
+  READ_VIEW: "READ_VIEW",
+  WRITE_VIEW: "WRITE_VIEW",
+  COMPOSE_WRITE_VIEW: "COMPOSE_WRITE_VIEW",
+};

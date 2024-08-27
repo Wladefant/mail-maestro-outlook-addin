@@ -1,0 +1,8 @@
+// Imports
+import ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from "../../../../../../../Outlook/node_modules/css-loader/dist/runtime/sourceMaps.js";
+import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../Outlook/node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".color-picker {\n  background-color: #FFF;\n}\n\n.color-picker .MuiInputBase-root {\n  height: 40px !important;\n}\n\n.css-jery6c {\n  width: 250px !important;\n}", "",{"version":3,"sources":["webpack://./../Shared/dialog/components/Screens/Settings/modules/FontPreference/styles.css"],"names":[],"mappings":"AAAA;EACE,sBAAsB;AACxB;;AAEA;EACE,uBAAuB;AACzB;;AAEA;EACE,uBAAuB;AACzB","sourcesContent":[".color-picker {\n  background-color: #FFF;\n}\n\n.color-picker .MuiInputBase-root {\n  height: 40px !important;\n}\n\n.css-jery6c {\n  width: 250px !important;\n}"],"sourceRoot":""}]);
+// Exports
+export default ___CSS_LOADER_EXPORT___;

@@ -1,0 +1,8 @@
+// Imports
+import ___CSS_LOADER_API_SOURCEMAP_IMPORT___ from "../../../../../../../Outlook/node_modules/css-loader/dist/runtime/sourceMaps.js";
+import ___CSS_LOADER_API_IMPORT___ from "../../../../../../../Outlook/node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".ltr {\n  margin-block-start: 0;\n  margin-block-end: 0;\n}\n.rlt {\n  margin-block-start: 0;\n  margin-block-end: 0;\n}\n.paragraph {\n  margin-block-start: 0;\n  margin-block-end: 0;\n}\n\n.editor-input {\n  padding: 5px;\n  height: calc(100% - 10px);\n}\n\n.editor-placeholder {\n  position: absolute;\n  top: 4px;\n  left: 5px;\n  color: #8e8e8e;\n  pointer-events: none;\n  font-size: 12px;\n}", "",{"version":3,"sources":["webpack://./../Shared/dialog/components/Screens/Settings/modules/AIPersonality/editorStyles.css"],"names":[],"mappings":"AAAA;EACE,qBAAqB;EACrB,mBAAmB;AACrB;AACA;EACE,qBAAqB;EACrB,mBAAmB;AACrB;AACA;EACE,qBAAqB;EACrB,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,yBAAyB;AAC3B;;AAEA;EACE,kBAAkB;EAClB,QAAQ;EACR,SAAS;EACT,cAAc;EACd,oBAAoB;EACpB,eAAe;AACjB","sourcesContent":[".ltr {\n  margin-block-start: 0;\n  margin-block-end: 0;\n}\n.rlt {\n  margin-block-start: 0;\n  margin-block-end: 0;\n}\n.paragraph {\n  margin-block-start: 0;\n  margin-block-end: 0;\n}\n\n.editor-input {\n  padding: 5px;\n  height: calc(100% - 10px);\n}\n\n.editor-placeholder {\n  position: absolute;\n  top: 4px;\n  left: 5px;\n  color: #8e8e8e;\n  pointer-events: none;\n  font-size: 12px;\n}"],"sourceRoot":""}]);
+// Exports
+export default ___CSS_LOADER_EXPORT___;
